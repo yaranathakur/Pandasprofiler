@@ -11,17 +11,17 @@ Using Pandas Profiling is incredibly straightforward. You can simply import the 
 
 Python code to install and use Pandas Profiling
 
-# Install 'ydata-profiling' using pip
+### Install 'ydata-profiling' using pip
 pip install ydata-profiling
-# Import the necessary modules
+### Import the necessary modules
 import pandas as pd
 from ydata_profiling import ProfileReport
-# Load your data into a Pandas DataFrame
+### Load your data into a Pandas DataFrame
 df = pd.read_csv('your_data.csv')
-# Generate the profiling report using 'ydata-profiling'
+### Generate the profiling report using 'ydata-profiling'
 profile = ProfileReport(df)
 profile.to_file('report.html')
-# The profiling report will be saved as an HTML file ('report.html')
+### The profiling report will be saved as an HTML file ('report.html')
 Beyond its ease of use, Pandas Profiling also offers customization options to tailor the reports according to your needs. You can specify which variables to include or exclude from the analysis, configure the level of detail in the reports, and even control the visual themes to match your preferences or your organization’s branding.
 
 Whether you’re working on a small dataset or dealing with big data, Pandas Profiling is a valuable tool that can save you significant time and effort in the initial stages of data analysis. By automating the generation of comprehensive reports, it empowers data practitioners to quickly gain insights, identify data quality issues, and make informed decisions.
